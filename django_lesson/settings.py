@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'django_lesson.wsgi.application'
 # }
 
 
-DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URI'))}
+DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))}
 
 
 # Password validation
